@@ -1,0 +1,8 @@
+flask
+pandas
+numpy
+reportlab
+matplotlib
+scikit-learn
+bcrypt
+flask-mail
