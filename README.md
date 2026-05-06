@@ -1,108 +1,104 @@
-# ❤️ Heart Disease Prediction System
+# Heart Disease Prediction System
 
-## 📌 Project Overview
-This project is a Machine Learning-based web application developed to predict the risk of heart disease using patient health data. The system helps in early detection by analyzing various medical and lifestyle parameters and classifying users into High Risk or Low Risk categories.
+## Project Overview
+This project is a web application that predicts the risk of heart disease using patient health data. It helps in early detection by analyzing medical and lifestyle details and classifying users into High Risk or Low Risk categories.
 
-The application is designed to assist users and healthcare professionals by providing quick and reliable predictions based on trained machine learning models. It improves decision-making and promotes preventive healthcare.
-
----
-
-## 🚀 Features
-- User-friendly web interface for entering health data
-- Real-time heart disease risk prediction
-- Analysis based on multiple health parameters
-- Machine Learning model integration
-- High prediction accuracy (~95%)
-- Data preprocessing and validation
-- Result visualization and report generation
+The system uses machine learning models to give quick and reliable predictions based on the data provided by the user.
 
 ---
 
-## 🧠 Technologies Used
-- Programming Language: Python
-- Web Framework: Flask
-- Machine Learning Library: Scikit-learn
-- Database: SQLite
-- Frontend: HTML, CSS
-- Visualization: Matplotlib
+## Features
+- Simple interface to enter health details  
+- Instant heart disease risk prediction  
+- Uses multiple health parameters  
+- Machine learning model integration  
+- Around 95% prediction accuracy  
+- Basic data validation  
+- Shows result clearly  
 
 ---
 
-## 🤖 Machine Learning Models
+## Technologies Used
+- Python  
+- Flask  
+- Scikit-learn  
+- SQLite  
+- HTML, CSS  
+- Matplotlib  
+
+---
+
+## Machine Learning Models
 - Logistic Regression  
-- Random Forest (Primary model with ~95% accuracy)
+- Random Forest (used for final prediction)
 
 ---
 
-## 📊 Evaluation Metrics
-- Accuracy
-- Precision
-- Recall
-- F1-Score
-- Confusion Matrix
+## Evaluation Metrics
+- Accuracy  
+- Precision  
+- Recall  
+- F1-Score  
+- Confusion Matrix  
 
 ---
 
-## 🔄 System Workflow
-1. User enters health details through the web interface
-2. Input data is validated and preprocessed
-3. Data is passed to trained machine learning models
-4. Model analyzes the input features
-5. System predicts heart disease risk
-6. Result is displayed as High Risk or Low Risk
+## System Workflow
+1. User enters health details  
+2. Data is checked and prepared  
+3. Data is given to the model  
+4. Model processes the input  
+5. System predicts the risk  
+6. Result is shown as High Risk or Low Risk  
 
 ---
 
-## ⚙️ Installation & Setup
+## Installation & Setup
 
-### 1. Clone the repository
-git clone https://github.com/bhuvan2005-k/ML-Driven-Predictive-Analysis-for-Heart-Disease-Diagnosis.git  
+Clone the repository  
+git clone https://github.com/your-username/heart-disease-prediction.git  
+
+Go to project folder  
 cd heart-disease-prediction  
 
-### 2. Create virtual environment (optional)
-python -m venv venv  
-venv\Scripts\activate   (for Windows)  
-
-### 3. Install dependencies
+Install dependencies  
 pip install -r requirements.txt  
 
-### 4. Run the application
+Run the application  
 python app.py  
 
-### 5. Open in browser
+Open in browser  
 http://127.0.0.1:5000/  
 
 ---
 
-## 📈 Results
-- Random Forest achieved approximately 95% accuracy  
-- Logistic Regression achieved around 88–90% accuracy  
-- The system provides reliable predictions for early heart disease detection  
+## Results
+- Random Forest accuracy: ~95%  
+- Logistic Regression accuracy: ~88–90%  
 
 ---
 
-## ⚠️ Limitations
-- Prediction depends on dataset quality  
-- Not a replacement for professional medical diagnosis  
-- Limited to predefined input features  
+## Limitations
+- Depends on data quality  
+- Not a replacement for a doctor  
+- Works only with given features  
 
 ---
 
-## 🔮 Future Enhancements
-- Integration with real-time health monitoring devices  
-- Mobile application development  
-- Implementation of deep learning models  
-- Integration with hospital systems (EHR)  
+## Future Improvements
+- Add mobile version  
+- Use advanced models  
+- Connect with hospital systems  
 
 ---
 
-## 👩‍💻 Authors
-- Gokulraj M  
-- Abirami P  
+## Authors
 - Bhuvaneshwari K  
+- Gokulraj M  
 - Harivarshini R S  
+- Abirami P
 
 ---
 
-## 📜 License
-This project is developed for academic and educational purposes only.
+## License
+This project is for academic use only.
